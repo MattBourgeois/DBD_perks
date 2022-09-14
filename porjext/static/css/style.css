@@ -1,0 +1,16 @@
+*{
+	padding: 0px;
+	margin: 15px;
+}
+.nav{
+	display: flex;
+}
+#content{
+	display: flex;
+}
+.pic{
+	width: 50px;
+	margin: 25px;
+	display: flex;
+	justify-content: space-evenly;
+}

@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<nav class="nav">
+        <h1 class="text-center">Welcome, pick a Tool!</h1>
+        <div class="d-flex col-4 justify-content-around">
+        </div>
+		<div id="content">
+			<div  class="tool_picture" >
+				<form action="/flashlight">
+					<a href="/flashlight">
+						<img src="{{url_for('static', filename = 'image_tool/flashlight_item/yellow_flashlight.webp') }}" class="pic">
+					</a>
+					<a href="/flashlight">
+						<img src="{{url_for('static', filename = 'image_tool/flashlight_item/green_flashlight.webp') }}" class="pic">
+					</a>
+					<a href="/flashlight">
+						<img src="{{url_for('static', filename = 'image_tool/flashlight_item/purple_flashlight.webp') }}" class="pic">
+					</a>
+				</form>
+			</div>
+			<div class="tool_picture">
+				<form action="">
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/key_item/green_key.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/key_item/purple_key.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/key_item/pink_key.webp') }}" class="pic">
+					</a>
+				</form>
+			</div>
+			<div class="tool_picture">
+				<form action="">
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/map_item/green_map.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/map_item/pink_map.webp') }}" class="pic">
+					</a>
+				</form>
+			</div>
+			<div class="tool_picture">
+				<form action="">
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/medkit_item/grey_medkit.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/medkit_item/yellow_medkit.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/medkit_item/green_medkit.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/medkit_item/green_rangermedkit.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/medkit_item/purple_medkit.webp') }}" class="pic">
+					</a>
+				</form>
+			</div>
+			<div class="tool_picture">
+				<form action="">
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/toolbox_item/grey.toolbox.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/toolbox_item/yellow_toolbox.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/toolbox_item/green_tmechanictoolbox.webp') }}" class="pic">
+					</a>
+					<a href="">
+						<img src="{{url_for('static', filename = 'image_tool/toolbox_item/alex_purpletoolbox.webp') }}" class="pic">
+					</a>
+					<img src="{{url_for('static', filename = 'image_tool/toolbox_item/purple_engineersToolbox.webp') }}" class="pic">
+				</form>
+			</div>
+		</div>
+    </nav>
+
+</body>
+</html>
